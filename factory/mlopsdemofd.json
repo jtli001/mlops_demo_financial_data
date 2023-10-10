@@ -1,0 +1,9 @@
+{
+	"name": "mlopsdemofd",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "aef9fe80-4d09-4f1d-89c9-d25b9f4ce41e",
+		"tenantId": "513294a0-3e20-41b2-a970-6d30bf1546fa"
+	}
+}

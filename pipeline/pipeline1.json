@@ -136,7 +136,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText1",
+						"referenceName": "datamovetest",
 						"type": "DatasetReference"
 					}
 				],
@@ -146,22 +146,6 @@
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "Machine Learning Execute Pipeline1",
-				"type": "AzureMLExecutePipeline",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"mlExecutionType": "pipeline"
-				}
 			}
 		],
 		"annotations": []

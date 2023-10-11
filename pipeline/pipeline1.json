@@ -136,7 +136,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "datamovetest",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				],
